@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="main">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Exemplo de diretiva</title>
+    <!-- estilos -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!-- biblioteca angular  -->
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/angular-animate.min.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/controllers/ListaTelefonicaController.js"></script>
+    <script src="js/directives/diretivas.js"></script>
+</head>
+
+<body ng-controller="ListaTelefonicaController">
+    <div class="container">
+        <div class="row">
+             <div class="col-md-6">
+            <diretiva-alerta></diretiva-alerta>
+            </div>
+            <div class="col-md-3">
+                <meu-botao-perigo nome="Clique"></meu-botao-perigo>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

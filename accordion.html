@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="main">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Exemplo de diretiva</title>
+    <!-- estilos -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- biblioteca angular  -->
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/angular-animate.min.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/controllers/AccordionController.js"></script>
+    <script src="js/directives/diretivas.js"></script>
+</head>
+
+<body ng-controller="AccordionController">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <meu-accordion></meu-accordion>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
